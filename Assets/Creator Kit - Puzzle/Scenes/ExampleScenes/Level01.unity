@@ -414,7 +414,7 @@ PrefabInstance:
     - target: {fileID: 8708705042030647248, guid: 47a7dae5249c1da449a9c374793537ba,
         type: 3}
       propertyPath: m_Mass
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 8708705042030647248, guid: 47a7dae5249c1da449a9c374793537ba,
         type: 3}
@@ -790,6 +790,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 601729860055346035, guid: 0478f95790edb8d49bdda38268c49b62,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 601729860055346035, guid: 0478f95790edb8d49bdda38268c49b62,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1b409198ce4afb24b8d69325fdeb8b3c, type: 3}
     - target: {fileID: 601729860055346036, guid: 0478f95790edb8d49bdda38268c49b62,
         type: 3}
       propertyPath: m_Name
@@ -1579,7 +1589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 297397816}
   xOffset: 0
-  yOffset: 5
+  yOffset: 4
   zOffset: -5
 --- !u!81 &1242755726
 AudioListener:
@@ -1614,7 +1624,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 55
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
