@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/ExampleMenu.unity
     guid: 0d85e03bacb199f408b4439fac4e3d46
   - enabled: 1
-    path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/Level01.unity
-    guid: 2e165c8be289f47448ae22da26c690f2
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/Level02.unity
     guid: 8587612e8826fec4994aafd966fa4dc3

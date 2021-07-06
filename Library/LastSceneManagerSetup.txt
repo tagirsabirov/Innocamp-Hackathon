@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/Level01.unity
+- path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/ExampleMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

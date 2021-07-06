@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
 	private float xInput;
 	private float zInput;
 	float jump;
-	
+
 	void awake()
 	{
 		rb = GetComponent<Rigidbody>();
@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
 	{
 		ProcessInputs();
 	}
-	
+
 	private void FixedUpdate()
 	{
 		Move();
@@ -40,4 +40,3 @@ public class PlayerController : MonoBehaviour
 	}
 }
 
-	
