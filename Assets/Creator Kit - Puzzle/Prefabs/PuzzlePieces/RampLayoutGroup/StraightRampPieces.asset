@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9655414df0b767c4b9aaae28eff2262d, type: 3}
+  m_Name: StraightRampPieces
+  m_EditorClassIdentifier: 
+  Pieces:
+  - {fileID: 1804052080349905902, guid: 5854574f4744b18458401abbf75c82fb, type: 3}
+  - {fileID: 7015507147704674142, guid: fb48213b52699c54aa17581bde073f80, type: 3}
+  - {fileID: 7628734335632989980, guid: 719d7ec556cb80545943f3f8c8183676, type: 3}
+  - {fileID: 1378229817753475040, guid: 33562113113d1aa448501adff3c5574e, type: 3}
+  - {fileID: 1804052080349905902, guid: 9daea8e7816b2c1489df8bc1d925770c, type: 3}
+  - {fileID: 1804052080349905902, guid: d099dcb1ad995a24ab23b63e14c1c9f0, type: 3}
