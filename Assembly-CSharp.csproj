@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4F76A86B-97AA-3C9C-A637-B987DC1DB2E1}</ProjectGuid>
+    <ProjectGuid>{F9A50ADD-56E9-5614-B58B-84E64BD14343}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -68,6 +68,7 @@
     <Compile Include="Assets\Creator Kit - Puzzle\Scripts\Audio\AudioAdjustmentSettings.cs" />
     <Compile Include="Assets\Creator Kit - Puzzle\Scripts\SceneSystems\SceneMenu.cs" />
     <Compile Include="Assets\Creator Kit - Puzzle\Scripts\SceneSystems\TimingRecording.cs" />
+    <Compile Include="Assets\Creator Kit - Puzzle\Scenes\ExampleScenes\CameraController.cs" />
     <Compile Include="Assets\Creator Kit - Puzzle\Scripts\InteractivePuzzlePieces\InteractivePuzzlePiece.cs" />
     <Compile Include="Assets\Creator Kit - Puzzle\Scripts\SceneSystems\SceneCompletion.cs" />
     <Compile Include="Assets\Creator Kit - Puzzle\Scripts\SceneSystems\SceneReference.cs" />
@@ -78,7 +79,6 @@
     <Compile Include="Assets\Creator Kit - Puzzle\Scripts\InteractivePuzzlePieces\Trapdoor.cs" />
     <Compile Include="Assets\Creator Kit - Puzzle\Scripts\Audio\MarbleAudio.cs" />
     <Compile Include="Assets\Creator Kit - Puzzle\Scenes\ExampleScenes\Ball-Movement.cs" />
-    <Compile Include="Assets\Creator Kit - Puzzle\Scenes\ExampleScenes\CameraController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
