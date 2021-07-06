@@ -15,11 +15,11 @@ C:/Users/Tagir/Documents/Hackathon/Innocamp-Hackathon
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64628
+50028
 Successfully changed project path to: C:/Users/Tagir/Documents/Hackathon/Innocamp-Hackathon
 C:/Users/Tagir/Documents/Hackathon/Innocamp-Hackathon
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 93.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -35,25 +35,25 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001582 seconds.
+Registered in 0.001660 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 37.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.877 seconds
+- Completed reload, in  0.934 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003979 seconds.
+Registered in 0.004602 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.805 seconds
+- Completed reload, in  0.831 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -65,7 +65,7 @@ System memory in use before: 90.5 MB.
 System memory in use after: 90.6 MB.
 
 Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2426.
-Total: 1.931200 ms (FindLiveObjects: 0.172200 ms CreateObjectMapping: 0.049900 ms MarkObjects: 1.646200 ms  DeleteObjects: 0.062200 ms)
+Total: 2.311100 ms (FindLiveObjects: 0.218300 ms CreateObjectMapping: 0.077700 ms MarkObjects: 1.948100 ms  DeleteObjects: 0.065400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,22 +79,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
-  artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2254110e6ae2d00e76e5d433fb8b7c22') in 0.016895 seconds 
-  Import took 0.019657 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003922 seconds.
+Registered in 0.004032 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.823 seconds
+- Completed reload, in  0.770 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -103,7 +96,7 @@ System memory in use before: 86.5 MB.
 System memory in use after: 86.6 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2429.
-Total: 1.966000 ms (FindLiveObjects: 0.188200 ms CreateObjectMapping: 0.053900 ms MarkObjects: 1.689900 ms  DeleteObjects: 0.033100 ms)
+Total: 2.039600 ms (FindLiveObjects: 0.194600 ms CreateObjectMapping: 0.046100 ms MarkObjects: 1.771500 ms  DeleteObjects: 0.026400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -118,31 +111,30 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 90.719430 seconds.
   path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
   artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2a8cd93e81039502ef6543d0e3bd8b') in 0.006854 seconds 
-  Import took 0.010271 seconds .
+Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5620a9f9a7fead093e832ad1d022f3') in 0.016904 seconds 
+  Import took 0.019568 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004082 seconds.
+Registered in 0.004342 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.783 seconds
+- Completed reload, in  0.759 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.5 MB.
-System memory in use after: 86.6 MB.
+System memory in use after: 86.7 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2432.
-Total: 1.867500 ms (FindLiveObjects: 0.158800 ms CreateObjectMapping: 0.051500 ms MarkObjects: 1.636200 ms  DeleteObjects: 0.020300 ms)
+Total: 2.021600 ms (FindLiveObjects: 0.184100 ms CreateObjectMapping: 0.045500 ms MarkObjects: 1.770000 ms  DeleteObjects: 0.021200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -156,15 +148,31 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 85.808145 seconds.
+  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
+  artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae992efc110937c516e0fe9dde79f2d') in 0.004322 seconds 
+  Import took 0.006994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.718124 seconds.
+  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
+  artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae992efc110937c516e0fe9dde79f2d') in 0.001763 seconds 
+  Import took 0.004674 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004413 seconds.
+Registered in 0.004089 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.878 seconds
+- Completed reload, in  0.784 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -173,7 +181,7 @@ System memory in use before: 86.6 MB.
 System memory in use after: 86.7 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2435.
-Total: 2.252200 ms (FindLiveObjects: 0.236900 ms CreateObjectMapping: 0.061000 ms MarkObjects: 1.927500 ms  DeleteObjects: 0.025700 ms)
+Total: 2.151400 ms (FindLiveObjects: 0.179700 ms CreateObjectMapping: 0.069900 ms MarkObjects: 1.881100 ms  DeleteObjects: 0.020000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -187,24 +195,40 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 69.755472 seconds.
+  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
+  artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a35dbcdeca8aed12e942c92a76905c') in 0.004381 seconds 
+  Import took 0.006994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.455822 seconds.
+  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
+  artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a35dbcdeca8aed12e942c92a76905c') in 0.001743 seconds 
+  Import took 0.004548 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004332 seconds.
+Registered in 0.003960 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.848 seconds
+- Completed reload, in  0.769 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.6 MB.
 System memory in use after: 86.7 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2438.
-Total: 2.458300 ms (FindLiveObjects: 0.219800 ms CreateObjectMapping: 0.095400 ms MarkObjects: 2.103400 ms  DeleteObjects: 0.038300 ms)
+Total: 2.078900 ms (FindLiveObjects: 0.186900 ms CreateObjectMapping: 0.075900 ms MarkObjects: 1.794200 ms  DeleteObjects: 0.021100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -220,13 +244,13 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003917 seconds.
+Registered in 0.003772 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.728 seconds
+- Completed reload, in  0.775 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -235,7 +259,7 @@ System memory in use before: 86.6 MB.
 System memory in use after: 86.7 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2441.
-Total: 1.974400 ms (FindLiveObjects: 0.184500 ms CreateObjectMapping: 0.053200 ms MarkObjects: 1.715200 ms  DeleteObjects: 0.020500 ms)
+Total: 2.185700 ms (FindLiveObjects: 0.178400 ms CreateObjectMapping: 0.075100 ms MarkObjects: 1.906000 ms  DeleteObjects: 0.025200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -249,24 +273,40 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 146.113466 seconds.
+  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
+  artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad230c9ad0a85aae03b44dcc1d73c4f') in 0.004351 seconds 
+  Import took 0.007216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.284545 seconds.
+  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
+  artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad230c9ad0a85aae03b44dcc1d73c4f') in 0.002251 seconds 
+  Import took 0.005090 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004131 seconds.
+Registered in 0.003960 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.737 seconds
+- Completed reload, in  0.782 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.6 MB.
 System memory in use after: 86.7 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2444.
-Total: 2.119000 ms (FindLiveObjects: 0.184500 ms CreateObjectMapping: 0.059700 ms MarkObjects: 1.852700 ms  DeleteObjects: 0.021300 ms)
+Total: 2.120600 ms (FindLiveObjects: 0.158300 ms CreateObjectMapping: 0.063000 ms MarkObjects: 1.878200 ms  DeleteObjects: 0.020400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -280,24 +320,32 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 239.660064 seconds.
+  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
+  artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdf5f82cd0fce10495805598222db86') in 0.004571 seconds 
+  Import took 0.007312 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004053 seconds.
+Registered in 0.004609 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.794 seconds
+- Completed reload, in  0.787 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.6 MB.
 System memory in use after: 86.7 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2447.
-Total: 2.366400 ms (FindLiveObjects: 0.167800 ms CreateObjectMapping: 0.061000 ms MarkObjects: 2.113600 ms  DeleteObjects: 0.023100 ms)
+Total: 2.146500 ms (FindLiveObjects: 0.165800 ms CreateObjectMapping: 0.065400 ms MarkObjects: 1.890800 ms  DeleteObjects: 0.023900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -313,22 +361,22 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004093 seconds.
+Registered in 0.003961 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.743 seconds
+- Completed reload, in  0.781 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.6 MB.
 System memory in use after: 86.7 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2450.
-Total: 2.288900 ms (FindLiveObjects: 0.180400 ms CreateObjectMapping: 0.066000 ms MarkObjects: 2.019900 ms  DeleteObjects: 0.021500 ms)
+Total: 2.085600 ms (FindLiveObjects: 0.157000 ms CreateObjectMapping: 0.054300 ms MarkObjects: 1.853300 ms  DeleteObjects: 0.020200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -342,24 +390,40 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 128.462413 seconds.
+  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/Level01.unity
+  artifactKey: Guid(2e165c8be289f47448ae22da26c690f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/Level01.unity using Guid(2e165c8be289f47448ae22da26c690f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b35e43a66e99ad252ecdd867f39288') in 0.048849 seconds 
+  Import took 0.051704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.016548 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/InteractivePuzzlePieces/Flipper.cs
+  artifactKey: Guid(eaa35f3555cfd3b438159492830d65b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/InteractivePuzzlePieces/Flipper.cs using Guid(eaa35f3555cfd3b438159492830d65b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3c80d21470642a429540f19c95e30a') in 0.006548 seconds 
+  Import took 0.009589 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003909 seconds.
+Registered in 0.004002 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.732 seconds
+- Completed reload, in  0.754 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.6 MB.
 System memory in use after: 86.7 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2453.
-Total: 2.167200 ms (FindLiveObjects: 0.163600 ms CreateObjectMapping: 0.059400 ms MarkObjects: 1.921500 ms  DeleteObjects: 0.021700 ms)
+Total: 2.215900 ms (FindLiveObjects: 0.181800 ms CreateObjectMapping: 0.070400 ms MarkObjects: 1.938600 ms  DeleteObjects: 0.024400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -374,39 +438,31 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 936.284582 seconds.
-  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
-  artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42f48ccf8d4f23a021e5646768afea7') in 0.008462 seconds 
-  Import took 0.011613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002763 seconds.
-  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
-  artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42f48ccf8d4f23a021e5646768afea7') in 0.001998 seconds 
-  Import took 0.004690 seconds .
+  Time since last request: 19.488661 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/InteractivePuzzlePieces/InteractivePuzzlePiece.cs
+  artifactKey: Guid(62cd3c31699c9204eb8f5a254ab9028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/InteractivePuzzlePieces/InteractivePuzzlePiece.cs using Guid(62cd3c31699c9204eb8f5a254ab9028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1029f847dc7f50c8732ee3f749237da3') in 0.008755 seconds 
+  Import took 0.011821 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003996 seconds.
+Registered in 0.004546 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.779 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.829 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.6 MB.
-System memory in use after: 86.7 MB.
+System memory in use after: 86.8 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2456.
-Total: 1.926100 ms (FindLiveObjects: 0.178700 ms CreateObjectMapping: 0.052200 ms MarkObjects: 1.675200 ms  DeleteObjects: 0.019000 ms)
+Total: 2.106300 ms (FindLiveObjects: 0.186000 ms CreateObjectMapping: 0.051800 ms MarkObjects: 1.846400 ms  DeleteObjects: 0.021300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -421,31 +477,126 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.601925 seconds.
-  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
-  artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcaf4d8fb28bd528e10a0feb062f7e0') in 0.004404 seconds 
-  Import took 0.007015 seconds .
+  Time since last request: 89.909210 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/InteractivePuzzlePieces/InteractivePuzzlePiece.cs
+  artifactKey: Guid(62cd3c31699c9204eb8f5a254ab9028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/InteractivePuzzlePieces/InteractivePuzzlePiece.cs using Guid(62cd3c31699c9204eb8f5a254ab9028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779553311e88bfa0274ad9911768a4dd') in 0.004743 seconds 
+  Import took 0.007404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.704166 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/InteractivePuzzlePieces/Trapdoor.cs
+  artifactKey: Guid(960f13a6dcfd87a4695007ac92ee11b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/InteractivePuzzlePieces/Trapdoor.cs using Guid(960f13a6dcfd87a4695007ac92ee11b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3efa0988fbaa382ae66a662133f318') in 0.007138 seconds 
+  Import took 0.010252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021594 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/InteractivePuzzlePieces/Trapdoor.cs
+  artifactKey: Guid(960f13a6dcfd87a4695007ac92ee11b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/InteractivePuzzlePieces/Trapdoor.cs using Guid(960f13a6dcfd87a4695007ac92ee11b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3efa0988fbaa382ae66a662133f318') in 0.001793 seconds 
+  Import took 0.004720 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003841 seconds.
+Registered in 0.004120 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.745 seconds
+- Completed reload, in  0.766 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.8 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2459.
+Total: 2.070600 ms (FindLiveObjects: 0.196100 ms CreateObjectMapping: 0.045300 ms MarkObjects: 1.805400 ms  DeleteObjects: 0.022600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.430549 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/InteractivePuzzlePieces/SwingHammer.cs
+  artifactKey: Guid(0ac369d93cc2c5e42aa2c2c790a3dd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/InteractivePuzzlePieces/SwingHammer.cs using Guid(0ac369d93cc2c5e42aa2c2c790a3dd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9ae59f5a1209d7f31e4bb45d212974') in 0.010211 seconds 
+  Import took 0.013160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.140071 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/LayoutSystem/PuzzleLayout.cs
+  artifactKey: Guid(a1456b50bd159924f8357c482b81e592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/LayoutSystem/PuzzleLayout.cs using Guid(a1456b50bd159924f8357c482b81e592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9bb03d317f9746249a617ea97a41aac') in 0.007417 seconds 
+  Import took 0.010721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.428457 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/LayoutSystem/PuzzlePiece.cs
+  artifactKey: Guid(b2c3a27681c826c4387c0878b6706443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/LayoutSystem/PuzzlePiece.cs using Guid(b2c3a27681c826c4387c0878b6706443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a60f2cbe95e6f4019ec7aeb4c5a851') in 0.007177 seconds 
+  Import took 0.010416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001379 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/LayoutSystem/PuzzlePiece.cs
+  artifactKey: Guid(b2c3a27681c826c4387c0878b6706443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/LayoutSystem/PuzzlePiece.cs using Guid(b2c3a27681c826c4387c0878b6706443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a60f2cbe95e6f4019ec7aeb4c5a851') in 0.002024 seconds 
+  Import took 0.004710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.391418 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/LayoutSystem/PuzzlePieceBox.cs
+  artifactKey: Guid(9655414df0b767c4b9aaae28eff2262d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/LayoutSystem/PuzzlePieceBox.cs using Guid(9655414df0b767c4b9aaae28eff2262d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c72ae57c78541ac560e4ac036309b3') in 0.007904 seconds 
+  Import took 0.010968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000842 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/LayoutSystem/PuzzlePieceBox.cs
+  artifactKey: Guid(9655414df0b767c4b9aaae28eff2262d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/LayoutSystem/PuzzlePieceBox.cs using Guid(9655414df0b767c4b9aaae28eff2262d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c72ae57c78541ac560e4ac036309b3') in 0.002301 seconds 
+  Import took 0.005486 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004334 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.789 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1948 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.6 MB.
 System memory in use after: 86.7 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2459.
-Total: 2.157100 ms (FindLiveObjects: 0.159100 ms CreateObjectMapping: 0.061200 ms MarkObjects: 1.913000 ms  DeleteObjects: 0.022800 ms)
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2459.
+Total: 2.172100 ms (FindLiveObjects: 0.186000 ms CreateObjectMapping: 0.073200 ms MarkObjects: 1.891200 ms  DeleteObjects: 0.021300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -460,299 +611,122 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 359.517602 seconds.
-  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
-  artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110ea9671e1345bcba79f61e4e394090') in 0.006422 seconds 
-  Import took 0.009115 seconds .
+  Time since last request: 998.452770 seconds.
+  path: Assets/Creator Kit - Puzzle/Audio
+  artifactKey: Guid(7f8ebe60cf1207f46aaa14f713b49d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Audio using Guid(7f8ebe60cf1207f46aaa14f713b49d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4c0317f265ef65a66a47457eec12d2') in 0.010179 seconds 
+  Import took 0.013118 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.769570 seconds.
-  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
-  artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110ea9671e1345bcba79f61e4e394090') in 0.002354 seconds 
-  Import took 0.005199 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004275 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.827 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.6 MB.
-System memory in use after: 86.8 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2462.
-Total: 2.194300 ms (FindLiveObjects: 0.162400 ms CreateObjectMapping: 0.056300 ms MarkObjects: 1.951300 ms  DeleteObjects: 0.023500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003875 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.753 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.6 MB.
-System memory in use after: 86.8 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2465.
-Total: 2.158200 ms (FindLiveObjects: 0.172900 ms CreateObjectMapping: 0.064800 ms MarkObjects: 1.899800 ms  DeleteObjects: 0.019800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 100.543876 seconds.
-  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
-  artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229bffe0055742f900f2c42cee0ac26f') in 0.006439 seconds 
-  Import took 0.009099 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003962 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.751 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.6 MB.
-System memory in use after: 86.8 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2468.
-Total: 1.945600 ms (FindLiveObjects: 0.160000 ms CreateObjectMapping: 0.050700 ms MarkObjects: 1.714900 ms  DeleteObjects: 0.019100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 185.833916 seconds.
-  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
-  artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e47306500940518c19db4fca943649') in 0.004321 seconds 
-  Import took 0.006853 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003892 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.738 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.8 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2471.
-Total: 1.918100 ms (FindLiveObjects: 0.168300 ms CreateObjectMapping: 0.053600 ms MarkObjects: 1.678400 ms  DeleteObjects: 0.017000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 43.890042 seconds.
-  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
-  artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a144fe6abe12bdde5bb94a13574d8d9e') in 0.004206 seconds 
-  Import took 0.006903 seconds .
+  Time since last request: 62.294461 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/Visuals/TargetGroupWeightControl.cs
+  artifactKey: Guid(df14e7de9a9077346aa68bec2b1607a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/Visuals/TargetGroupWeightControl.cs using Guid(df14e7de9a9077346aa68bec2b1607a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66585f8aa206e494995e69d2aed4de9') in 0.007391 seconds 
+  Import took 0.010548 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.517557 seconds.
-  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
-  artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a144fe6abe12bdde5bb94a13574d8d9e') in 0.002163 seconds 
-  Import took 0.004998 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003891 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.741 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.8 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2474.
-Total: 2.228700 ms (FindLiveObjects: 0.196100 ms CreateObjectMapping: 0.076300 ms MarkObjects: 1.930700 ms  DeleteObjects: 0.025000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 102.115977 seconds.
-  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
-  artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162f13eb346e5c4c0b2b9b11b5441ccc') in 0.006419 seconds 
-  Import took 0.009095 seconds .
+  Time since last request: 0.000733 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/Visuals/TargetGroupWeightControl.cs
+  artifactKey: Guid(df14e7de9a9077346aa68bec2b1607a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/Visuals/TargetGroupWeightControl.cs using Guid(df14e7de9a9077346aa68bec2b1607a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66585f8aa206e494995e69d2aed4de9') in 0.002343 seconds 
+  Import took 0.005220 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.386668 seconds.
-  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
-  artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162f13eb346e5c4c0b2b9b11b5441ccc') in 0.001829 seconds 
-  Import took 0.004518 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003905 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.731 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.8 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2477.
-Total: 2.100100 ms (FindLiveObjects: 0.184000 ms CreateObjectMapping: 0.051000 ms MarkObjects: 1.846300 ms  DeleteObjects: 0.017900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 55.944375 seconds.
-  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
-  artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a119d1d4dbd188bae76e7ec8aea94bce') in 0.004902 seconds 
-  Import took 0.007479 seconds .
+  Time since last request: 0.309695 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/Visuals/ScreenFader.cs
+  artifactKey: Guid(454b0c62c14bf8f43870c166836e5da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/Visuals/ScreenFader.cs using Guid(454b0c62c14bf8f43870c166836e5da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a80dd506e8547054ffb416713218327') in 0.007239 seconds 
+  Import took 0.010240 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.802877 seconds.
-  path: Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs
-  artifactKey: Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - Puzzle/Scenes/ExampleScenes/PlayerController.cs using Guid(798d08dad364c2a40b84c430491dc876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a119d1d4dbd188bae76e7ec8aea94bce') in 0.001887 seconds 
-  Import took 0.004564 seconds .
+  Time since last request: 0.001361 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/Visuals/ScreenFader.cs
+  artifactKey: Guid(454b0c62c14bf8f43870c166836e5da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/Visuals/ScreenFader.cs using Guid(454b0c62c14bf8f43870c166836e5da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a80dd506e8547054ffb416713218327') in 0.001912 seconds 
+  Import took 0.004695 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004142 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.777 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.8 MB.
+Received Import Request.
+  Time since last request: 94.995407 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/SceneSystems/TargetTrigger.cs
+  artifactKey: Guid(78bc933d27a9aca46aba70088034b0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/SceneSystems/TargetTrigger.cs using Guid(78bc933d27a9aca46aba70088034b0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724ef8f912007fd560f2c394441b1b97') in 0.009779 seconds 
+  Import took 0.012791 seconds .
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2480.
-Total: 2.206400 ms (FindLiveObjects: 0.181600 ms CreateObjectMapping: 0.066000 ms MarkObjects: 1.932900 ms  DeleteObjects: 0.025100 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.001625 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/SceneSystems/TargetTrigger.cs
+  artifactKey: Guid(78bc933d27a9aca46aba70088034b0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/SceneSystems/TargetTrigger.cs using Guid(78bc933d27a9aca46aba70088034b0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724ef8f912007fd560f2c394441b1b97') in 0.001782 seconds 
+  Import took 0.004734 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1.201005 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/SceneSystems/SceneReference.cs
+  artifactKey: Guid(c3d211144b02db9469c92f119740e451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/SceneSystems/SceneReference.cs using Guid(c3d211144b02db9469c92f119740e451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90312e3a03505eed051c7f2951aac49b') in 0.006619 seconds 
+  Import took 0.009574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001865 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/SceneSystems/SceneReference.cs
+  artifactKey: Guid(c3d211144b02db9469c92f119740e451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/SceneSystems/SceneReference.cs using Guid(c3d211144b02db9469c92f119740e451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90312e3a03505eed051c7f2951aac49b') in 0.002038 seconds 
+  Import took 0.005040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.642737 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/SceneSystems/SceneMenuIcon.cs
+  artifactKey: Guid(7ba9ab1c81fb08d40a67408cdddfa125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/SceneSystems/SceneMenuIcon.cs using Guid(7ba9ab1c81fb08d40a67408cdddfa125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df75a9ea4ea2616d9d4c06a1a570b875') in 0.007430 seconds 
+  Import took 0.010559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001114 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/SceneSystems/SceneMenuIcon.cs
+  artifactKey: Guid(7ba9ab1c81fb08d40a67408cdddfa125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/SceneSystems/SceneMenuIcon.cs using Guid(7ba9ab1c81fb08d40a67408cdddfa125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df75a9ea4ea2616d9d4c06a1a570b875') in 0.001900 seconds 
+  Import took 0.004756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.518218 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/SceneSystems/SceneMenu.cs
+  artifactKey: Guid(65156b009bd80344ea2b9b2268e94caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/SceneSystems/SceneMenu.cs using Guid(65156b009bd80344ea2b9b2268e94caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ad3f17200745d469764427c37900da') in 0.006906 seconds 
+  Import took 0.009970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001425 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/SceneSystems/SceneMenu.cs
+  artifactKey: Guid(65156b009bd80344ea2b9b2268e94caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/SceneSystems/SceneMenu.cs using Guid(65156b009bd80344ea2b9b2268e94caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ad3f17200745d469764427c37900da') in 0.001981 seconds 
+  Import took 0.004753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.751399 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/SceneSystems/TimingRecording.cs
+  artifactKey: Guid(54d3e3a06ede8144cba84bbc8c30e477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/SceneSystems/TimingRecording.cs using Guid(54d3e3a06ede8144cba84bbc8c30e477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47496ab007e572f3848f930b2683e07e') in 0.007202 seconds 
+  Import took 0.010320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004181 seconds.
+  path: Assets/Creator Kit - Puzzle/Scripts/SceneSystems/TimingRecording.cs
+  artifactKey: Guid(54d3e3a06ede8144cba84bbc8c30e477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - Puzzle/Scripts/SceneSystems/TimingRecording.cs using Guid(54d3e3a06ede8144cba84bbc8c30e477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47496ab007e572f3848f930b2683e07e') in 0.002223 seconds 
+  Import took 0.005130 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

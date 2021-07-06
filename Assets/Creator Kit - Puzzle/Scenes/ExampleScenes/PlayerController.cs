@@ -8,19 +8,13 @@ public class PlayerController : MonoBehaviour
 	public float moveSpeed;
 	private float xInput;
 	private float zInput;
-	public float jumpHeight;
 	float jump;
 	
 	void awake()
 	{
 		rb = GetComponent<Rigidbody>();
 	}
-	void Start()
-	{
-		
-	}	
 
-	// Update is called once per frame
 	void Update()
 	{
 		ProcessInputs();
@@ -35,18 +29,14 @@ public class PlayerController : MonoBehaviour
 	{
 		xInput = Input.GetAxis("Horizontal");
 		zInput = Input.GetAxis("Vertical");
+		if (Input.GetKey(KeyCode.Space) && GetComponent<Rigidbody>().transform.position.y <= 0.4f)
+			jump = 10f;
+		else
+			jump = 0f;
 	}
 	private void Move()
 	{
-		if (Input.GetKeyDown(KeyCode.Space))
-		{
-			rb.AddForce(new Vector3(0f, 25f, 0f));
-		}
-		rb.AddForce(new Vector3(xInput, 0f, zInput) * moveSpeed);
-
-
-
-
+		rb.AddForce(new Vector3(xInput, jump, zInput) * moveSpeed);
 	}
 }
 
